@@ -1,0 +1,33 @@
+carrega variaveis
+carrega allegro
+carrega fontes e imagens
+desenha matriz
+while principal
+	Espera evento 
+	se ocorrer evento teclado
+		se for tecla up
+			atualiza matriz**
+		se for tecla down
+			atualiza matriz**
+		se for tecla direita
+			atualiza matriz**
+		se for tecla esquerda
+			atualiza matriz**
+		se for tecla esc
+			sair laço principal
+	gera aleatorio
+		se matriz cheia
+			sair laço principal
+	soma pontos e imprime
+	Desenha matriz
+	se ocorrer evento mouse
+		se clicar New Game
+			zera matriz
+			zera pontos
+	
+fim laço
+imprime GAME OVER
+destruir fontes e imagens
+fecha programa
+fim programa
+
